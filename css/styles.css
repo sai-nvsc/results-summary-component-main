@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Hanken Grotesk Bold';
+    src: url('../assets/fonts/static/HankenGrotesk-Bold.ttf');
+
+}
+@font-face {
+    font-family: 'Hanken Grotesk Extra Bold';
+    src: url('../assets/fonts/static/HankenGrotesk-ExtraBold.ttf');
+}
+@font-face {
+    font-family: 'Hanken Grotesk Medium';
+    src: url('../assets/fonts/static/HankenGrotesk-Medium.ttf');
+}
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url('../assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Hanken Grotesk';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: var(--White);
+    min-height: 100vh;
+    /* border: 5px red solid; */
+}
+
+:root{
+    /* Primary */
+
+    --Light-red: hsla(0, 100%, 67%,.3);
+    --Orangey-yellow: hsla(39, 100%, 56%,.3);
+    --Green-teal: hsla(166, 100%, 37%,.3);
+    --Cobalt-blue: hsla(234, 85%, 45%,.3);
+    --Light-red-s: hsl(0, 100%, 67%);
+    --Orangey-yellow-s: hsla(39, 100%, 56%);
+    --Green-teal-s: hsla(166, 100%, 37%);
+    --Cobalt-blue-s: hsla(234, 85%, 45%);
+    
+    
+    /* Gradients */
+    
+    --Light-slate-blue-background: hsl(252, 100%, 67%);
+    --Light-royal-blue-background: hsl(241, 81%, 54%);
+    
+    --Violet-blue0-circle: hsla(256, 72%, 46%, 1);
+    --Persian-blue-circle: hsla(241, 72%, 46%, 0);
+    
+    
+    
+    /* Neutral */
+    
+    --White: hsl(0, 0%, 100%);
+    --Pale-blue: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%);
+    --Dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+
+.left{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    height: 25rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to top, var(--Light-royal-blue-background),var(--Light-slate-blue-background));
+    color: var(--White);
+    border-radius: 1.5rem;
+    
+}
+
+.right{
+    width: 18rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px 25px;
+}
+
+.reaction{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--Light-red);
+    height: 3rem;
+
+}
+
+.memory{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--Orangey-yellow);
+    height: 3rem;
+
+}
+.verbal{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--Green-teal);
+    height: 3rem;
+
+}
+
+.visual{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--Light-lavender);
+    height: 3rem;
+}
+
+.left .circle{
+    background-image: linear-gradient(var(--Violet-blue0-circle),var(--Persian-blue-circle));
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.reaction .title{
+    color: var(--Light-red-s);
+}
+.memory .title{
+    color: var(--Orangey-yellow-s);
+}
+
+.verbal .title{
+    color: var(--Green-teal-s);
+}
+
+.visual .title{
+    color: var(--Cobalt-blue-s);
+}
