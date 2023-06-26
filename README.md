@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/result-summary-component-html-and-css-WPpf5uADxu](https://www.frontendmentor.io/solutions/result-summary-component-html-and-css-WPpf5uADxu)
+- Live Site URL: [https://results-summary-component-main-sage.vercel.app/](https://results-summary-component-main-sage.vercel.app/)
 
 ## My process
   First, I assess all the possible div that are needed. Then used flex as a display property to ensure responsiveness. I followed all the color and did my best replicating the design.
@@ -51,6 +51,6 @@ I have learned the use of media query to customize the overall design on the spe
 
 
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/sai-nvsc)
-- Twitter - [@yourusername](https://www.twitter.com/cycynvsc)
+- Frontend Mentor - [@sai-nvsc](https://www.frontendmentor.io/profile/sai-nvsc)
+- Twitter - [@cycynvsc](https://www.twitter.com/cycynvsc)
 
